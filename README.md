@@ -44,8 +44,11 @@ Using NOR gates NOR gate is actually a combination of two logic gates: OR gate f
 ## Program:
 /*
 Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
+
 Developed by: SarvaeshDR
+
 RegisterNumber:  23012252
+
 */
 ```
 module verilog1(a,b,c,d,w,x,y,z, F1, F2);
