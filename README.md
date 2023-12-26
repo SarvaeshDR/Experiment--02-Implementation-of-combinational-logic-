@@ -20,10 +20,15 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
 ## Procedure
 
 1.Create a project with required entities.
+
 2.Create a module along with respective file name.
+
 3.Run the respective programs for the given boolean equations.
+
 4.Run the module and get the respective RTL outputs.
+
 5.Create university program (VWF) for getting timing diagram.
+
 6.Give the respective inputs for timing diagram and obtain the results.
 
 ## Program:
@@ -31,6 +36,7 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
 Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
 Developed by: SarvaeshDR
 RegisterNumber:  23012252
+*/
 ```
 module verilog1(a,b,c,d,w,x,y,z, F1, F2);
 input a,b,c,d, W, X, Y, Z
@@ -50,7 +56,6 @@ assign B5= (w&y&z);
 assign F2= B1 B2 B3 B4|B5;
 endmodule
 ```
-*/
 ## RTL realization
 
 ## Output:
